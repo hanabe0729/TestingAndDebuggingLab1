@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.function.IntBinaryOperator;
 
 public class Set {
-  private ArrayList<Integer> a;
+  ArrayList<Integer> a;
 
   public Set() {
     a = new ArrayList<Integer>();
