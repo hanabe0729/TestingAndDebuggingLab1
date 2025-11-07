@@ -44,7 +44,7 @@ public class SetChanged {
         return false;
     }
 
-    public void intersect(Set s) {
+    public void intersect(SetChanged s) {
         for(int i = 0, j = 0 ; i < a.size() && j < s.a.size();) {
             if (a.get(i).equals(s.a.get(j))){
                 i++;
@@ -52,7 +52,7 @@ public class SetChanged {
             } else {
                 if (a.get(i) < s.a.get(j)) {
                     a.remove(i);
-                    i++;
+                    //i++;
                 } else {
                     j++;
                 }
